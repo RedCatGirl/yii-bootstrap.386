@@ -15,7 +15,7 @@
     },
     "require": {
         "php": "^7.4|^8.0",
-        "kristopolous/bootsrap.386": "^4.0",
+        "kristopolous/bootsrap.386": "4.*",
         "oomphinc/composer-installers-extender": "^2.0.0",
         "yiisoft/arrays": "^1.0|^2.0",
         "yiisoft/assets": "^2.0",
