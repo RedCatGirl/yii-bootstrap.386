@@ -20,7 +20,7 @@ final class Bootstrap386Asset extends AssetBundle
 
     public ?string $baseUrl = '@assetsUrl';
 
-    public ?string $sourcePath = '@vendor/kristopolous/bootsrap.386';
+    public ?string $sourcePath = '@vendor/redcatgirl/bootstrap.386/dist';
 
     public array $css = [
         'css/bootstrap.css',

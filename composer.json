@@ -15,7 +15,7 @@
     },
     "require": {
         "php": "^7.4|^8.0",
-        "kristopolous/bootsrap.386": "4.*",
+        "redcatgirl/bootstrap.386": "^1.0",
         "oomphinc/composer-installers-extender": "^2.0.0",
         "yiisoft/arrays": "^1.0|^2.0",
         "yiisoft/assets": "^2.0",
@@ -65,17 +65,6 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "kristopolous/bootsrap.386",
-                "version": "4.0",
-                "dist": {
-                    "url": "https://github.com/kristopolous/BOOTSTRA.386/blob/master/bootstra.386-latest-v4.zip?raw=true",
-                    "type": "zip"
-                }
-            }
         }
     ],
     "scripts": {
