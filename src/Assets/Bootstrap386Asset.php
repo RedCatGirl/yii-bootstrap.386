@@ -29,18 +29,4 @@ final class Bootstrap386Asset extends AssetBundle
     public array $js = [
         'js/bootstrap.bundle.js',
     ];
-
-    public function __construct()
-    {
-        $pathMatcher = new PathMatcher();
-
-        $this->publishOptions = [
-            'filter' => $pathMatcher->only(
-                '**css/bootstrap.css',
-                '**css/bootstrap.css.map',
-                '**js/bootstrap.bundle.js',
-                '**js/bootstrap.bundle.js.map',
-            ),
-        ];
-    }
 }
