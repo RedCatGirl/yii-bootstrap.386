@@ -13,10 +13,13 @@
         "source": "https://github.com/RedCatGirl/yii-bootstrap.386",
         "issues": "https://github.com/RedCatGirl/yii-bootstrap.386/issues"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": "^7.4|^8.0",
-        "redcatgirl/bootstrap.386": "^1.0",
         "oomphinc/composer-installers-extender": "^2.0.0",
+        "redcatgirl/bootstrap.386": "^1.0",
+        "redcatgirl/yii-jquery": "1.0.x-dev",
         "yiisoft/arrays": "^1.0|^2.0",
         "yiisoft/assets": "^2.0",
         "yiisoft/html": "^2.0",

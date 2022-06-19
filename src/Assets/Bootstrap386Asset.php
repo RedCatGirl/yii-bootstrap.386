@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace RedCatGirl\YiiBootstrap386\Assets;
 
+use RedCatGirl\Jquery\JqueryAsset;
 use Yiisoft\Assets\AssetBundle;
 use Yiisoft\Files\PathMatcher\PathMatcher;
 
@@ -28,5 +29,9 @@ final class Bootstrap386Asset extends AssetBundle
 
     public array $js = [
         'js/bootstrap.bundle.js',
+    ];
+
+    public array $depends = [
+        JqueryAsset::class
     ];
 }
